@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    /* background: url(https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHdpdHRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60); */
+    /* background: url(https://images.unsplash.com/photo-1618243615611-f64ebcb16f36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fHR3aXR0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60); */
+    /* background: url(https://images.unsplash.com/photo-1651081042986-c7646d967dcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80); */
+    background: url(https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aW5zdGFncmFtfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 3em;
+    margin-top: 45px;
+    color: #cd5c5c;
+    background: whitesmoke;
+    width: fit-content;
+    text-align: center;
+    margin: 45px auto;
+    border: 1px solid #cd5c5c;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+footer {
+    /* background-color: rgb(1,152,224); */
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.fa-github {
+    font-size: 40px;
+    color: white;
+}
+.fa-github:hover{
+    color: black;
+}
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    transform: scale(1.5);
+    color: black;
+}
+
+#dev {
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#dev:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+    transform: none;
+}
+
+@media screen and (max-width: 900px) {
+    h2{
+        font-size: 2em;
+    }
+    #dev{
+        font-size: 20px;
+    }
+    .fa-github {
+        font-size: 30px;
+    }
+}
+#followers{
+    width: 20%;
+    margin-bottom: 25px;
+}
+.hide{
+    display: none;
+}
+.form-switch{
+    position: relative;
+    top: 0.75em;
+    left: 5vw;
+    font-size: 25px;
+}
+@media screen and (max-width: 900px){
+    .form-switch{
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+        top: 0em;
+        left: 0em;
+    }
+    #followers{
+        width: 50%;
+    }
+    #devName{
+        margin-top: 7%;
+    }
+}
+
+#lightThemePosts,#darkThemePosts{
+    width: 90%;
+    margin: auto;
+}
+
+.hashtag{
+    margin: 25px 0;
+    transform: scale(1.5);
+}
+.fa-instagram{
+    color: white;
+    font-size: 35px;
+}
