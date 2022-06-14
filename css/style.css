@@ -10,7 +10,7 @@ body {
 
 h2 {
     font-size: 3em;
-    margin-top: 45px;
+    margin-top: 35px;
     color: #cd5c5c;
     background: whitesmoke;
     width: fit-content;
@@ -63,7 +63,8 @@ footer a:hover {
 
 @media screen and (max-width: 900px) {
     h2{
-        font-size: 2em;
+        font-size: 1.5em;
+        margin-top: 10%;
     }
     #dev{
         font-size: 20px;
