@@ -4,7 +4,7 @@ Instagram Timeline Project. All of #100Devs instagram posts tagged with #100Devs
 The site is live at : https://100devsinstaposts.netlify.app/ or https://100devsinstagram.netlify.app/
 
 <a target="_blank" href="https://100devsinstaposts.netlify.app">
-          <img src="" width="100%" alt="Instagram posts #100Devs"/>
+          <img src="https://github.com/rahulkarda/100Devs-Instagram-Posts/blob/master/images/100devsinstaposts.jpg?raw=true" width="100%" alt="Instagram posts #100Devs"/>
 </a>
 <br>
 
